@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.hippo4j:hippo4j-core-spring-boot-starter:1.2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/software/apache-maven-3.5.4-heisea/repository/cn/hippo4j/hippo4j-core-spring-boot-starter/1.2.1/hippo4j-core-spring-boot-starter-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/software/apache-maven-3.5.4-heisea/repository/cn/hippo4j/hippo4j-core-spring-boot-starter/1.2.1/hippo4j-core-spring-boot-starter-1.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/software/apache-maven-3.5.4-heisea/repository/cn/hippo4j/hippo4j-core-spring-boot-starter/1.2.1/hippo4j-core-spring-boot-starter-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
