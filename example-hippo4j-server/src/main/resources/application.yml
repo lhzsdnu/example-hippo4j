@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: example-hippo4j-server
+  dynamic:
+    thread-pool:
+      # 服务端地址
+      server-addr: http://192.168.174.100:6691
+      # 用户名
+      username: admin
+      # 密码
+      password: 123456
+      # 租户id, 对应 tenant 表
+      namespace: example
+      # 项目id, 对应 item 表
+      item-id: ${spring.application.name}

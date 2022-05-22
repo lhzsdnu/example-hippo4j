@@ -1,0 +1,3 @@
+# Project exclude paths
+/example-hippo4j-core/target/
+/example-hippo4j-server/target/

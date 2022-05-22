@@ -1,0 +1,23 @@
+#spring:
+#  dynamic:
+#    thread-pool:
+#      # 是否开启线程池数据采集，对接 Prometheus
+#      collect: true
+#      collect-type: metric
+#      # 全局通知配置
+#      alarm: false
+#      # 动态线程池配置
+#      executors:
+#        - thread-pool-id: 'message'
+#          core-pool-size: 40
+#          maximum-pool-size: 60
+#          queue-capacity: 512
+#          keep-alive-time: 30
+#          # 线程名前缀
+#          thread-name-prefix: 'message'
+#          # 阻塞队列
+#          blocking-queue: 'LinkedBlockingQueue'
+#          # 拒绝策略
+#          rejected-handler: 'CallerRunsPolicy'
+#          # 是否允许核心线程超时
+#          allow-core-thread-time-out: false
