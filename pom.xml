@@ -64,7 +64,7 @@
 
             <dependency>
                 <groupId>cn.hippo4j</groupId>
-                <artifactId>hippo4j-core-spring-boot-starter</artifactId>
+                <artifactId>hippo4j-config-spring-boot-starter</artifactId>
                 <version>${hippo4j.version}</version>
             </dependency>
 
