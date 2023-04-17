@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/example-hippo4j-core/example-hippo4j-core.iml" filepath="$PROJECT_DIR$/example-hippo4j-core/example-hippo4j-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/example-hippo4j-server/example-hippo4j-server.iml" filepath="$PROJECT_DIR$/example-hippo4j-server/example-hippo4j-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/my-example-hippo4j.iml" filepath="$PROJECT_DIR$/.idea/my-example-hippo4j.iml" />
     </modules>
   </component>
 </project>

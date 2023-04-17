@@ -22,23 +22,21 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <spring-boot.version>2.6.8</spring-boot.version>
-        <spring-cloud.version>2021.0.2</spring-cloud.version>
-        <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
+        <spring-boot.version>2.7.10</spring-boot.version>
+        <spring-cloud.version>2021.0.5</spring-cloud.version>
+        <spring-cloud-alibaba.version>2021.0.5.0</spring-cloud-alibaba.version>
 
         <!-- 阿里巴巴 开源组件 -->
-        <fastjson.version>1.2.80</fastjson.version>
-        <nacos.version>2.0.2</nacos.version>
+        <fastjson.version>2.0.28</fastjson.version>
+        <nacos.version>2.2.2</nacos.version>
 
         <!-- 国内开源组件 -->
-        <hippo4j.version>1.2.1</hippo4j.version>
-        
+        <hippo4j.version>1.4.3</hippo4j.version>
+
         <!-- 开源通用工具包 -->
-        <hutool.version>5.8.1</hutool.version>
+        <hutool.version>5.8.18</hutool.version>
         <guava.version>31.1-jre</guava.version>
-        <okhttp.version>3.14.9</okhttp.version>
-        <mapstruct.version>1.4.2.Final</mapstruct.version>
-        <lombok.version>1.18.24</lombok.version>
+        <lombok.version>1.18.26</lombok.version>
     </properties>
 
     <dependencyManagement>

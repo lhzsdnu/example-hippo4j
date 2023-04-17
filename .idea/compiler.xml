@@ -7,13 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="example-hippo4j-server" />
         <module name="example-hippo4j-core" />
+        <module name="example-hippo4j-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="example-hippo4j-core" target="1.8" />
-      <module name="example-hippo4j-server" target="1.8" />
       <module name="my-example-hippo4j" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -1,0 +1,37 @@
+#spring:
+#  dynamic:
+#    thread-pool:
+#      # 通知报警平台
+#      notify-platforms:
+#        - platform: 'DING'
+#          token: df6a893ed5bab845e432c4ad6767f09cf914b3bc26ed9fad70300677fb5a3749
+#          secret: SECf5ff2b0765736bab3707d6b8dbcb04c8ce2746064f92a75adc09c40edbf01e57
+#
+#      # 配置中心
+#      nacos:
+#        data-id: 'example-hippo4j-core.yml'
+#        group: 'DEFAULT_GROUP'
+#      # 配置中心文件格式
+#      config-file-type: yml
+#
+#      # 动态线程池配置
+#      executors:
+#        - thread-pool-id: 'message'
+#          # 核心线程数
+#          core-pool-size: 40
+#          # 最大线程数
+#          maximum-pool-size: 60
+#          # 阻塞队列大小
+#          queue-capacity: 512
+#          # 线程存活时间，单位：秒
+#          keep-alive-time: 30
+#          # 线程名前缀
+#          thread-name-prefix: 'message'
+#          # 阻塞队列名称
+#          blocking-queue: 'ResizableCapacityLinkedBlockingQueue'
+#          # 拒绝策略名称
+#          rejected-handler: 'CallerRunsPolicy'
+#          # 是否允许核心线程超时
+#          allow-core-thread-time-out: false
+#          # 执行超时时间，单位：毫秒
+#          execute-time-out: 5000
