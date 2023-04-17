@@ -31,7 +31,7 @@
         <nacos.version>2.2.2</nacos.version>
 
         <!-- 国内开源组件 -->
-        <hippo4j.version>1.4.3</hippo4j.version>
+        <hippo4j.version>1.5.0</hippo4j.version>
 
         <!-- 开源通用工具包 -->
         <hutool.version>5.8.18</hutool.version>
