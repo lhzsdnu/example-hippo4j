@@ -29,12 +29,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.vaadin.external.google</groupId>
-                    <artifactId>android-json</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
         <!-- ================================================================================================ -->
@@ -42,18 +36,11 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-            <version>2021.0.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-bootstrap</artifactId>
-            <version>3.1.1</version>
         </dependency>
 
         <dependency>
             <groupId>cn.hippo4j</groupId>
-            <artifactId>hippo4j-core-spring-boot-starter</artifactId>
+            <artifactId>hippo4j-spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>

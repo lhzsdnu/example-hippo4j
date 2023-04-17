@@ -1,16 +1,13 @@
 package com.lhzsdnu.example.hippo4j.core.config;
 
-import com.lhzsdnu.example.hippo4j.core.util.ThreadPoolUtil;
-
+import cn.hippo4j.core.enable.EnableDynamicThreadPool;
 import cn.hippo4j.core.executor.DynamicThreadPool;
-import cn.hippo4j.core.executor.support.ResizableCapacityLinkedBlockIngQueue;
 import cn.hippo4j.core.executor.support.ThreadPoolBuilder;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
 
 /**
  * <p>
